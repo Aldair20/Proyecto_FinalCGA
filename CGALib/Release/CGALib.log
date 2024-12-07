@@ -1,0 +1,633 @@
+﻿  Bones.cpp
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\bones.h(111): warning C4251: 'Bones::m_BoneMapping': class 'std::map<std::string,unsigned int,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'Bones'
+          with
+          [
+              _Kty=std::string,
+              _Ty=unsigned int
+          ]
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\bones.h(111): note: see declaration of 'std::map<std::string,unsigned int,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=std::string,
+              _Ty=unsigned int
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\bones.h(112): warning C4251: 'Bones::m_BoneInfo': class 'std::vector<Bones::BoneInfo,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Bones'
+          with
+          [
+              _Ty=Bones::BoneInfo
+          ]
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\bones.h(112): note: see declaration of 'std::vector<Bones::BoneInfo,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Bones::BoneInfo
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\bones.h(113): warning C4251: 'Bones::bones': class 'std::vector<Bones::VertexBoneData,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Bones'
+          with
+          [
+              _Ty=Bones::VertexBoneData
+          ]
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\bones.h(113): note: see declaration of 'std::vector<Bones::VertexBoneData,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Bones::VertexBoneData
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\src\bones.cpp(88): warning C4018: '<': signed/unsigned mismatch
+  Box.cpp
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(264): warning C4251: 'AbstractModel::position': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(265): warning C4251: 'AbstractModel::scale': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(266): warning C4251: 'AbstractModel::color': struct 'glm::vec<4,float,0>' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(421): note: see declaration of 'glm::vec<4,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(267): warning C4251: 'AbstractModel::orientation': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(269): warning C4251: 'AbstractModel::vertexArray': class 'std::vector<AbstractModel::Vertex,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'AbstractModel'
+          with
+          [
+              _Ty=AbstractModel::Vertex
+          ]
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(245): note: see declaration of 'std::vector<AbstractModel::Vertex,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=AbstractModel::Vertex
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(270): warning C4251: 'AbstractModel::index': class 'std::vector<GLuint,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'AbstractModel'
+          with
+          [
+              _Ty=GLuint
+          ]
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(270): note: see declaration of 'std::vector<GLuint,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=GLuint
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(271): warning C4251: 'AbstractModel::aabb': class 'AbstractModel::AABB' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(65): note: see declaration of 'AbstractModel::AABB'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(272): warning C4251: 'AbstractModel::sbb': class 'AbstractModel::SBB' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(51): note: see declaration of 'AbstractModel::SBB'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(273): warning C4251: 'AbstractModel::obb': class 'AbstractModel::OBB' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(94): note: see declaration of 'AbstractModel::OBB'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(75): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(76): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(77): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(78): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(79): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(80): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\box.h(37): warning C4251: 'Box::aabb': class 'AbstractModel::AABB' needs to have dll-interface to be used by clients of class 'Box'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(65): note: see declaration of 'AbstractModel::AABB'
+  Cylinder.cpp
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(264): warning C4251: 'AbstractModel::position': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(265): warning C4251: 'AbstractModel::scale': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(266): warning C4251: 'AbstractModel::color': struct 'glm::vec<4,float,0>' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(421): note: see declaration of 'glm::vec<4,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(267): warning C4251: 'AbstractModel::orientation': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(269): warning C4251: 'AbstractModel::vertexArray': class 'std::vector<AbstractModel::Vertex,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'AbstractModel'
+          with
+          [
+              _Ty=AbstractModel::Vertex
+          ]
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(245): note: see declaration of 'std::vector<AbstractModel::Vertex,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=AbstractModel::Vertex
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(270): warning C4251: 'AbstractModel::index': class 'std::vector<GLuint,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'AbstractModel'
+          with
+          [
+              _Ty=GLuint
+          ]
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(270): note: see declaration of 'std::vector<GLuint,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=GLuint
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(271): warning C4251: 'AbstractModel::aabb': class 'AbstractModel::AABB' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(65): note: see declaration of 'AbstractModel::AABB'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(272): warning C4251: 'AbstractModel::sbb': class 'AbstractModel::SBB' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(51): note: see declaration of 'AbstractModel::SBB'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(273): warning C4251: 'AbstractModel::obb': class 'AbstractModel::OBB' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(94): note: see declaration of 'AbstractModel::OBB'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(75): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(76): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(77): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(78): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(79): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(80): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\src\cylinder.cpp(33): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\src\cylinder.cpp(34): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\src\cylinder.cpp(44): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\src\cylinder.cpp(45): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  FirstPersonCamera.cpp
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\camera.h(111): warning C4251: 'Camera::position': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Camera'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\camera.h(112): warning C4251: 'Camera::front': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Camera'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\camera.h(113): warning C4251: 'Camera::up': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Camera'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\camera.h(114): warning C4251: 'Camera::right': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Camera'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\camera.h(115): warning C4251: 'Camera::worldUp': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Camera'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\camera.h(117): warning C4251: 'Camera::cameraTarget': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Camera'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+  FontTypeRendering.cpp
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\src\fonttyperendering.cpp(135): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Mesh.cpp
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(264): warning C4251: 'AbstractModel::position': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(265): warning C4251: 'AbstractModel::scale': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(266): warning C4251: 'AbstractModel::color': struct 'glm::vec<4,float,0>' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(421): note: see declaration of 'glm::vec<4,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(267): warning C4251: 'AbstractModel::orientation': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(269): warning C4251: 'AbstractModel::vertexArray': class 'std::vector<AbstractModel::Vertex,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'AbstractModel'
+          with
+          [
+              _Ty=AbstractModel::Vertex
+          ]
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(245): note: see declaration of 'std::vector<AbstractModel::Vertex,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=AbstractModel::Vertex
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(270): warning C4251: 'AbstractModel::index': class 'std::vector<GLuint,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'AbstractModel'
+          with
+          [
+              _Ty=GLuint
+          ]
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(270): note: see declaration of 'std::vector<GLuint,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=GLuint
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(271): warning C4251: 'AbstractModel::aabb': class 'AbstractModel::AABB' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(65): note: see declaration of 'AbstractModel::AABB'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(272): warning C4251: 'AbstractModel::sbb': class 'AbstractModel::SBB' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(51): note: see declaration of 'AbstractModel::SBB'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(273): warning C4251: 'AbstractModel::obb': class 'AbstractModel::OBB' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(94): note: see declaration of 'AbstractModel::OBB'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(75): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(76): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(77): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(78): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(79): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(80): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\texture.h(81): warning C4251: 'Texture::m_fileName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Texture'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\texture.h(84): warning C4251: 'Texture::type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Texture'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\bones.h(111): warning C4251: 'Bones::m_BoneMapping': class 'std::map<std::string,unsigned int,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'Bones'
+          with
+          [
+              _Kty=std::string,
+              _Ty=unsigned int
+          ]
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\bones.h(111): note: see declaration of 'std::map<std::string,unsigned int,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=std::string,
+              _Ty=unsigned int
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\bones.h(112): warning C4251: 'Bones::m_BoneInfo': class 'std::vector<Bones::BoneInfo,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Bones'
+          with
+          [
+              _Ty=Bones::BoneInfo
+          ]
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\bones.h(112): note: see declaration of 'std::vector<Bones::BoneInfo,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Bones::BoneInfo
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\bones.h(113): warning C4251: 'Bones::bones': class 'std::vector<Bones::VertexBoneData,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Bones'
+          with
+          [
+              _Ty=Bones::VertexBoneData
+          ]
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\bones.h(113): note: see declaration of 'std::vector<Bones::VertexBoneData,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Bones::VertexBoneData
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\mesh.h(54): warning C4251: 'Mesh::textures': class 'std::vector<Texture *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Mesh'
+          with
+          [
+              _Ty=Texture *
+          ]
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\mesh.h(54): note: see declaration of 'std::vector<Texture *,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Texture *
+          ]
+  Model.cpp
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(264): warning C4251: 'AbstractModel::position': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(265): warning C4251: 'AbstractModel::scale': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(266): warning C4251: 'AbstractModel::color': struct 'glm::vec<4,float,0>' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(421): note: see declaration of 'glm::vec<4,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(267): warning C4251: 'AbstractModel::orientation': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(269): warning C4251: 'AbstractModel::vertexArray': class 'std::vector<AbstractModel::Vertex,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'AbstractModel'
+          with
+          [
+              _Ty=AbstractModel::Vertex
+          ]
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(245): note: see declaration of 'std::vector<AbstractModel::Vertex,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=AbstractModel::Vertex
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(270): warning C4251: 'AbstractModel::index': class 'std::vector<GLuint,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'AbstractModel'
+          with
+          [
+              _Ty=GLuint
+          ]
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(270): note: see declaration of 'std::vector<GLuint,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=GLuint
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(271): warning C4251: 'AbstractModel::aabb': class 'AbstractModel::AABB' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(65): note: see declaration of 'AbstractModel::AABB'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(272): warning C4251: 'AbstractModel::sbb': class 'AbstractModel::SBB' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(51): note: see declaration of 'AbstractModel::SBB'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(273): warning C4251: 'AbstractModel::obb': class 'AbstractModel::OBB' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(94): note: see declaration of 'AbstractModel::OBB'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(75): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(76): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(77): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(78): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(79): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(80): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\texture.h(81): warning C4251: 'Texture::m_fileName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Texture'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\texture.h(84): warning C4251: 'Texture::type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Texture'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\bones.h(111): warning C4251: 'Bones::m_BoneMapping': class 'std::map<std::string,unsigned int,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'Bones'
+          with
+          [
+              _Kty=std::string,
+              _Ty=unsigned int
+          ]
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\bones.h(111): note: see declaration of 'std::map<std::string,unsigned int,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=std::string,
+              _Ty=unsigned int
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\bones.h(112): warning C4251: 'Bones::m_BoneInfo': class 'std::vector<Bones::BoneInfo,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Bones'
+          with
+          [
+              _Ty=Bones::BoneInfo
+          ]
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\bones.h(112): note: see declaration of 'std::vector<Bones::BoneInfo,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Bones::BoneInfo
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\bones.h(113): warning C4251: 'Bones::bones': class 'std::vector<Bones::VertexBoneData,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Bones'
+          with
+          [
+              _Ty=Bones::VertexBoneData
+          ]
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\bones.h(113): note: see declaration of 'std::vector<Bones::VertexBoneData,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Bones::VertexBoneData
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\mesh.h(54): warning C4251: 'Mesh::textures': class 'std::vector<Texture *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Mesh'
+          with
+          [
+              _Ty=Texture *
+          ]
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\mesh.h(54): note: see declaration of 'std::vector<Texture *,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Texture *
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\model.h(66): warning C4251: 'Model::meshes': class 'std::vector<Mesh *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Model'
+          with
+          [
+              _Ty=Mesh *
+          ]
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\model.h(50): note: see declaration of 'std::vector<Mesh *,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Mesh *
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\model.h(67): warning C4251: 'Model::textureLoaded': class 'std::vector<Texture *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Model'
+          with
+          [
+              _Ty=Texture *
+          ]
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\mesh.h(54): note: see declaration of 'std::vector<Texture *,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Texture *
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\model.h(68): warning C4251: 'Model::directory': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Model'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\model.h(70): warning C4251: 'Model::m_GlobalInverseTransform': struct 'glm::mat<4,4,glm::f32,0>' needs to have dll-interface to be used by clients of class 'Model'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(520): note: see declaration of 'glm::mat<4,4,glm::f32,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\model.h(72): warning C4251: 'Model::importer': class 'Assimp::Importer' needs to have dll-interface to be used by clients of class 'Model'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\assimp\include\assimp\importer.hpp(122): note: see declaration of 'Assimp::Importer'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\src\model.cpp(27): warning C4018: '<': signed/unsigned mismatch
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\src\model.cpp(32): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Shader.cpp
+  ShadowBox.cpp
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\camera.h(111): warning C4251: 'Camera::position': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Camera'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\camera.h(112): warning C4251: 'Camera::front': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Camera'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\camera.h(113): warning C4251: 'Camera::up': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Camera'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\camera.h(114): warning C4251: 'Camera::right': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Camera'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\camera.h(115): warning C4251: 'Camera::worldUp': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Camera'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\camera.h(117): warning C4251: 'Camera::cameraTarget': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Camera'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\shadowbox.h(40): warning C4251: 'ShadowBox::front': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'ShadowBox'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\shadowbox.h(41): warning C4251: 'ShadowBox::up': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'ShadowBox'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\shadowbox.h(42): warning C4251: 'ShadowBox::right': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'ShadowBox'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\shadowbox.h(43): warning C4251: 'ShadowBox::mins': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'ShadowBox'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\shadowbox.h(44): warning C4251: 'ShadowBox::maxs': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'ShadowBox'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\src\shadowbox.cpp(14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\src\shadowbox.cpp(15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\src\shadowbox.cpp(16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\src\shadowbox.cpp(17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Sphere.cpp
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(264): warning C4251: 'AbstractModel::position': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(265): warning C4251: 'AbstractModel::scale': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(266): warning C4251: 'AbstractModel::color': struct 'glm::vec<4,float,0>' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(421): note: see declaration of 'glm::vec<4,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(267): warning C4251: 'AbstractModel::orientation': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(269): warning C4251: 'AbstractModel::vertexArray': class 'std::vector<AbstractModel::Vertex,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'AbstractModel'
+          with
+          [
+              _Ty=AbstractModel::Vertex
+          ]
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(245): note: see declaration of 'std::vector<AbstractModel::Vertex,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=AbstractModel::Vertex
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(270): warning C4251: 'AbstractModel::index': class 'std::vector<GLuint,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'AbstractModel'
+          with
+          [
+              _Ty=GLuint
+          ]
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(270): note: see declaration of 'std::vector<GLuint,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=GLuint
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(271): warning C4251: 'AbstractModel::aabb': class 'AbstractModel::AABB' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(65): note: see declaration of 'AbstractModel::AABB'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(272): warning C4251: 'AbstractModel::sbb': class 'AbstractModel::SBB' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(51): note: see declaration of 'AbstractModel::SBB'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(273): warning C4251: 'AbstractModel::obb': class 'AbstractModel::OBB' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(94): note: see declaration of 'AbstractModel::OBB'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(75): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(76): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(77): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(78): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(79): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(80): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\sphere.h(39): warning C4251: 'Sphere::sbb': class 'AbstractModel::SBB' needs to have dll-interface to be used by clients of class 'Sphere'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(51): note: see declaration of 'AbstractModel::SBB'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\src\sphere.cpp(8): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\src\sphere.cpp(12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Terrain.cpp
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(264): warning C4251: 'AbstractModel::position': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(265): warning C4251: 'AbstractModel::scale': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(266): warning C4251: 'AbstractModel::color': struct 'glm::vec<4,float,0>' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(421): note: see declaration of 'glm::vec<4,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(267): warning C4251: 'AbstractModel::orientation': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(269): warning C4251: 'AbstractModel::vertexArray': class 'std::vector<AbstractModel::Vertex,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'AbstractModel'
+          with
+          [
+              _Ty=AbstractModel::Vertex
+          ]
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(245): note: see declaration of 'std::vector<AbstractModel::Vertex,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=AbstractModel::Vertex
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(270): warning C4251: 'AbstractModel::index': class 'std::vector<GLuint,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'AbstractModel'
+          with
+          [
+              _Ty=GLuint
+          ]
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(270): note: see declaration of 'std::vector<GLuint,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=GLuint
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(271): warning C4251: 'AbstractModel::aabb': class 'AbstractModel::AABB' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(65): note: see declaration of 'AbstractModel::AABB'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(272): warning C4251: 'AbstractModel::sbb': class 'AbstractModel::SBB' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(51): note: see declaration of 'AbstractModel::SBB'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(273): warning C4251: 'AbstractModel::obb': class 'AbstractModel::OBB' needs to have dll-interface to be used by clients of class 'AbstractModel'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(94): note: see declaration of 'AbstractModel::OBB'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(75): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(76): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(77): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(78): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(79): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\abstractmodel.h(80): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\texture.h(81): warning C4251: 'Texture::m_fileName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Texture'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\texture.h(84): warning C4251: 'Texture::type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Texture'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\terrain.h(50): warning C4251: 'Terrain::heightMap': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Terrain'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\src\terrain.cpp(116): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\src\terrain.cpp(117): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\src\terrain.cpp(142): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\src\terrain.cpp(143): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Texture.cpp
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\texture.h(81): warning C4251: 'Texture::m_fileName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Texture'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\texture.h(84): warning C4251: 'Texture::type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Texture'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  ThirdPersonCamera.cpp
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\camera.h(111): warning C4251: 'Camera::position': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Camera'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\camera.h(112): warning C4251: 'Camera::front': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Camera'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\camera.h(113): warning C4251: 'Camera::up': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Camera'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\camera.h(114): warning C4251: 'Camera::right': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Camera'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\camera.h(115): warning C4251: 'Camera::worldUp': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Camera'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\include\headers\camera.h(117): warning C4251: 'Camera::cameraTarget': struct 'glm::vec<3,float,0>' needs to have dll-interface to be used by clients of class 'Camera'
+  c:\users\beekam\3d objects\computaciongraficaavanzada\external\glm\glm\fwd.hpp(420): note: see declaration of 'glm::vec<3,float,0>'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\src\thirdpersoncamera.cpp(23): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\beekam\3d objects\computaciongraficaavanzada\cgalib\src\thirdpersoncamera.cpp(25): warning C4305: '=': truncation from 'double' to 'float'
+  TimeManager.cpp
+     Creating library C:\Users\beekam\3D Objects\ComputacionGraficaAvanzada\Release\CGALib.lib and object C:\Users\beekam\3D Objects\ComputacionGraficaAvanzada\Release\CGALib.exp
+  Generating code
+  All 1627 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  CGALib.vcxproj -> C:\Users\beekam\3D Objects\ComputacionGraficaAvanzada\Release\CGALib.dll
